@@ -1,19 +1,20 @@
 ---
 name: deploymate-ai
-description: "Use this skill when a developer reports a deployment failure, build error, missing dependency, configuration problem, missing environment variable, or application startup failure. Diagnose likely causes using evidence, recommend safe fixes, and explain verification steps."
+description: Helps developers troubleshoot deployment failures, build errors, missing dependencies, configuration problems, environment variables, and application startup issues. Use when a developer reports a failed deployment, asks why a build failed, encounters hosting errors, or needs safe, step-by-step guidance to diagnose problems, apply fixes, and verify solutions.
 license: MIT
-compatibility: Works with AI agents that support Markdown-based skill instructions.
 metadata:
   llmskillhub:
     version: 1.0.0
     categories:
-      - agents
+      - coding
+      - devops
     keywords:
       - deployment
       - debugging
       - troubleshooting
       - devops
       - build-errors
+    repository: https://github.com/muskhan934-dot/DEPOLYMATE-AI
     capabilities:
       network: false
       filesystem: none
