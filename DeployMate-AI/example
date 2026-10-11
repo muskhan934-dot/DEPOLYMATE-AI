@@ -1,0 +1,41 @@
+# Example: Fixing a Missing Build Script
+
+## User Request
+
+"My deployment is failing with Missing script: build. How can I fix it?"
+
+## Problem
+
+The deployment platform attempts to run a build script, but the project's configuration may not define that script.
+
+## Information to Collect
+
+- Programming language and framework
+- Deployment platform
+- Package manager
+- Relevant scripts from package.json
+- Complete error message
+
+## Troubleshooting Steps
+
+1. Open the project's package.json file.
+2. Inspect the scripts section.
+3. Identify the framework and its expected build command.
+4. Compare the project's configuration with the deployment platform's build settings.
+5. Correct the configuration only after confirming the appropriate command.
+6. Run the build command again and inspect the output.
+
+## Safety
+
+- Do not assume every project uses the same build command.
+- Do not overwrite the existing package.json without checking its contents.
+- Never share API keys, passwords, or access tokens.
+- Do not claim that the issue is fixed until the build result has been verified.
+
+## Verification
+
+Confirm that the build command completes successfully. Then redeploy the application and check the deployment logs.
+
+## Additional Information if the Problem Continues
+
+Request the framework, deployment platform, relevant package.json scripts, and exact error message. Ask the user to remove sensitive information before sharing logs.
